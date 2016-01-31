@@ -14,24 +14,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-    <style>
-        body {
-            font-family: 'Raleway';
-            margin-top: 25px;
-        }
-        .fa-btn {
-            margin-right: 6px;
-        }
-        .table-text div {
-            padding-top: 6px;
-        }
-    </style>
 
-    <script>
-        (function () {
-            $('#task-name').focus();
-        }());
-    </script>
 </head>
 
 <body>
@@ -54,14 +37,7 @@
                     &nbsp;
                 </ul>
 
-                {{--<ul class="nav navbar-nav navbar-right">--}}
-                    {{--@if (!Auth::user())--}}
-                        {{--<li><a href="/auth/social/login"><i class="fa fa-btn fa-sign-in"></i>Login</a></li>--}}
-                    {{--@else--}}
-                        {{--<li class="navbar-text"><i class="fa fa-btn fa-user"></i>{{ Auth::user()->name }}</li>--}}
-                        {{--<li><a href="/auth/logout"><i class="fa fa-btn fa-sign-out"></i>Logout</a></li>--}}
-                    {{--@endif--}}
-                {{--</ul>--}}
+
             </div>
         </div>
     </nav>
