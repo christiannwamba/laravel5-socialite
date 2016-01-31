@@ -35,9 +35,9 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
     'github' => [
-        'client_id' => '48210afad0b2e6c4a369',
-        'client_secret' => '2177155ba12e6a28ed02ec9c7078578f3c0aec8d',
-        'redirect' => 'http://laravel5-socialite.app/auth/github/callback',
+        'client_id' => 'your-app-id',
+        'client_secret' => 'your-app-secret',
+        'redirect' => 'http://your-host:port/auth/github/callback',
     ],
 
 ];
